@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>practice</title>
+        <link rel="icon" type="image/jpg" href="image.jpg">
+        <style>
+            #circle{
+                background-color: red;
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                margin: auto;
+                border: 50px solid white;
+            }
+            #rectangle{
+                background: white;
+                height: 250px;
+                width: 400px;
+                margin: auto;
+                border: solid 2px    black;
+            }
+            table,th,td{
+                border-collapse: collapse;
+                border: solid black ;
+                padding: 10px;
+                background-color: blueviolet;
+            }
+            </style>
+</head> 
+<body>
+    <img src="img2.jpg" alt="my profile photo" style="border: green solid 5px; height: auto;">
+    <h1 id="top">Flag of Japan</h1>
+    <div id="rectangle">
+        <div id="circle"></div>
+    </div>
+    <h2 style="font-family: monospace;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quod! Corrupti architecto aliquid animi. Obcaecati dignissimos dolor eaque odit, aliquid voluptate nesciunt dolorum amet aut cumque sunt eveniet perspiciatis asperiores iste maiores corporis. Asperiores provident aspernatur eveniet molestiae vero expedita non nisi, voluptatibus ad, incidunt fugit voluptatem sed consequatur quidem.</h2>
+    <p style="color: blue;">Some conrtent has not been shown</p>
+    <p><ins>hello<sub>2</sub></ins></p>
+    <p>log<sub>e</sub>x<sup>sin x</sup> <del>equal  to </del></p>
+    <p><s>hello</s></p>
+    <p><mark>hello</mark></p>
+    <p id="code"><pre>     written in pre   </pre></p>
+    <p>
+        <code>#include &lt;stdio.h&gt;</code><br>
+        <code>int main(){</code><br>
+        <code>int t;</code><br>
+        <code>scanf("%d",&t);</code><br>
+        <code>printf("%d",t*2);</code><br>
+        <code>return 0;</code><br>
+        <code>}</code><br>
+    </p>
+    <p><q>helo</q><cite>hello   </cite><abbr title="hello">he</abbr></p>
+    <div style="border-radius: 50%; background-color: blue  ; height: 500px; width: 500px; margin: auto;"></div>
+    <h1><a href="#top">Click here</a> to go to top</h1>
+    <h1><a href="#code">Click here</a> to go to code</h1>
+</body>
+<form action="">
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="first name">
+    <br>
+    <label for="lastname">Last Name</label>
+    <input type="text" name="lastname" id="lastname" >
+    <br><br>
+    <fieldset>
+        <legend>Form Elements &#128556</legend>
+        <input type="button" name="submit" id="submit" value="Submit">
+        <h5>Differnet types of input in HTML : </h5><br>
+        <label for="submit">Submit : </label>
+        <input type="submit" id="submit" autofocus><br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" value="abc@xyz.com" placeholder="email"><br>
+        <label for="password">Password : </label>
+        <input type="password" value="12345678" placeholder="password" id="password"><br>
+        <label for="date">Date : </label>
+        <input type="date" id="date"><br>
+        <label for="number">Number : </label>
+        <input type="number" value="3" placeholder="number" id="number"><br>
+        <label for="range">Range : </label>
+        <input type="range" value="50" id="range" naem="range" min="10" max="60"><br>
+        <label for="url">URL : </label>
+        <input type="url" id="url" value="xyz.com" placeholder="url"><br>
+        <label for="checkbox">Checkbox : </label>
+        <input type="checkbox" id="checkbox"><br>
+        <label for="radio">Radio : </label>
+        <input type="radio" id="radio"><br>
+        <label for="hidden">Hidden : </label>
+        <input type="hidden" id="hidden" value="hidden" placeholder="hiddden"><br>
+        <label for="time">Time :</label>
+        <input type="time" value="12:30"><br>
+        <label for="select">Select : </label>
+        <select name="select" id="select">
+            <option value="select">select</option>
+            <option value="value1">value1</option>
+            <option value="value2">value2</option>
+            <option value="value3">value3</option>
+            <option value="value4">value4</option>
+        </select>
+    </fieldset>
+    <br><br><br>
+    <fieldset>
+        <legend>REGISTRATION FORM </legend>
+        <label for="firstName">First Name</label>
+        <br>
+        <input type="text" id="firstName">
+        <br><br>
+        <label for="lastName">Last Name</label>
+        <br>
+        <input type="text" id="lastName"><br><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+        <br>
+        <label for="emailid">Email</label><br>
+        <input type="email" id="emailid" placeholder="abc@gmail.com"><br><br>
+        <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+    </fieldset>
+</form>
+<br><br><br>
+<video controls>
+    <source src="https://youtu.be/Pk1rjRYbalE?list=PLzXjGZVkx4leBTa3IJZuPHRSjFeMV20hw">
+</video>
+<iframe width="942" height="530" src="https://www.youtube.com/embed/Pk1rjRYbalE?list=PLzXjGZVkx4leBTa3IJZuPHRSjFeMV20hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14600.484073563672!2d86.44109486931156!3d23.814295299999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x122cb1d133a89995!2sIndian%20Institute%20of%20Technology%20(Indian%20School%20of%20Mines)%2C%20Dhanbad!5e0!3m2!1sen!2sin!4v1651903562175!5m2!1sen!2sin" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<p>hello
+    <table>
+        <caption>table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Phone No.</th>
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+        <tr>
+            <td>user1</td>
+            <td>user2</td>
+            <td>user3</td>                
+        </tr>
+    </table>
+</p>
+</html>
