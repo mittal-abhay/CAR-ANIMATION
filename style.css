@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(94, 219, 27);
+  /*  margin: none;*/
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: normal;
+}
+header {
+    background: rgb(94, 219, );
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+img{
+    width: 200px;
+    border: 5px solid brown;
+    box-shadow: 1px;
+}
+footer{
+    background-color: rgb(94, 219, 0);
+    text-align: center;
+    padding-top: 1rem;
+    border: .5em solid brown;
+}
+table, th, td{
+    border: solid .3px brown;
+    text-align: center;
+}
+article h3{
+    text-align: center;
+    font-weight: bold;
+}
