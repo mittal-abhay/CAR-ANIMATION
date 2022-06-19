@@ -1,6 +1,6 @@
 git status
 git add .
-git commit -m "css error removed"
+git commit -m "sound fixed by raj"
 git pull
 git remote add origin https://github.com/mittal-abhay/CAR-ANIMATION.git
 git branch
